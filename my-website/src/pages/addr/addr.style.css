@@ -1,0 +1,14 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+    display: 'flex';
+    justify-content:'center';
+    align-items: 'center';
+    height: '50vh';
+    font-size: '20px';
+  }
+
+  
