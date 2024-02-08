@@ -8,6 +8,64 @@
 	overflow:auto;	
 }
 
+.photoContent{
+	margin-left: 6%;
+	text-align: center;
+	
+}
+
+.photos{
+	float: left;
+	display: block;
+	text-align: center;
+	padding-left: 10%;
+	
+	}
+
+.left{
+	text-align: left;
+}
+
+table {
+	border-collapse: collapse;
+	width:50%;
+	letter-spacing: 1px;	
+	margin-left: auto;
+	margin-right: auto;	
+  }
+
+  td, th {
+	border: none;
+  }
+
+  .price td, th {
+	border: 1px solid rgb(190,190,190);
+	text-align: left;	
+	padding: 10px 15px;
+  }
+
+  th {
+	
+	background: linear-gradient(#fafafa,10%, #acb5e1)
+  }
+  td {
+	text-align: center;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	
+  }
+  
+  tr:nth-child(even) td {
+	background-color: #ffffff;
+  }
+  
+  tr:nth-child(odd) td {
+	background-color: rgb(255, 255, 255);
+  }
+  
+  caption {
+	padding: 10px;
+  }
+
 li{
 	text-align: left;
 	padding: 0 25px;
@@ -33,11 +91,13 @@ margin:30px auto 30px;
 .ul_1 {	
 	list-style-position:inside;
 	list-style-image: linear-gradient(#FF7A2F 0, #FF7A2F 50%, #FFB214 50%);
-	
+	padding: 20 50px;	
 }
-.ul_2 {	
+.list {	
 	list-style-position:inside;
-	list-style-image: url('../images/check.png');	
+	/*list-style-image: url('check.png');	*/
+	padding: 20 70px;
+	text-align: left;
 }
 
 
@@ -80,16 +140,26 @@ margin-right:20px;
 }
 #fio
 {
+	margin: 0 auto;
 	font-family: Impact, fantasy;	
 	font-size:30px;
+	width:200px;
 	display:block;
-	color: #7F859F;
-	/*border: 1px solid black;*/
+	text-align:center;
+	text-shadow: rgb(218, 229, 252) 10px 45 30px;
+	/*color: #7F859F;*/
+	background: linear-gradient(to right, #ff029e, 
+                    #e3cb16,#09f12c  ); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+
+			
+			
 }
 #logoped
 {
 	margin:5px auto 20px auto;
-	font-size:15px;
+	font-size:20px;
 	display:block;	
 	/*border: 1px solid black;*/
 }
@@ -133,75 +203,11 @@ font-size:100%;
 	background-color:/*#23262D;*/#848AA4;
 	margin:0 auto;
 }
-.table{
-  position: relative;
-  top:15px;
-  background-color:#202124;
-  padding 10px;
- overflow:scroll;
- height:250px;
-}
-
-
-.row{
-  position: relative;
-margin:20px;
-height:50px;
-width:250px;
-background-color:red;
-position:relative;
-border: 1px solid #202124;
-
-}
-
-.col1{
-	position: relative;
-	float:left; 
-  border-top: 1px solid #2E3137;
-  border-bottom:1px solid #33363D
-  height:25px;
-  width:30px;
-  background-color:#26282E;
-  padding:10px;
-  margin-left:300px;
-
-}
 
 
 
-div#fixed {
-   
-    padding-bottom: 60px;     
-    position: fixed;
-    top: 30px;
-    left: 30px;
-    /*bottom: 10px;*/
-    width: 300px;
-	z-index:4;	
-	background-color: #81827D;
-	/*overflow-y: auto;
-    height:200px;*/
-}
-
-div#scrollable {
-	
-    /* padding-bottom: 60px;   */  
-    position: absolute;
-    top: 305px;
-    left: 14px;
-    /*bottom: 10px;*/
-    width: 300px;
-	z-index:0;	
-	background-color: #81827D;
-	overflow-y: auto;
-    height:400px;
-}
 
 
-#cube{	
-	height:15px;
-	width:auto;
-	}
 
 #content
 {
@@ -220,16 +226,6 @@ div#scrollable {
 
 
 
-#right
-{
-	position:absolute;
-	left:330px; /* 300px - width #left + 30px margin-left #left*/
-	top: 180px;
-	text-align:justify;
-	padding-right:5px;
-	color:#6D6E68;
-
-}
 
 
 
@@ -239,27 +235,6 @@ div#scrollable {
 	width:25px;	
 }
 
-
-
-table{
-	color:#DFE0DA;
-	/*border:1px solid black;*/
-	margin:0 auto;
-	width:230px;
-	/*margin:0 auto;
-	display:block;*/
-}
-
-
-
-
-
-
-.left{ 
-	float:left;
-	width:20%; /* you can use % */
-	height: auto;  
-}
 h2{
 	text-align:center;
 }
@@ -267,11 +242,14 @@ h2{
 {
 	margin:10px 0px;
 	padding:5px 0px;
-	color:white;
+	color:#ffffff;
+	text-shadow: rgb(0, 0, 0) 1px 0 1px;
 	  
   text-align:center;
   font-size:20px;
-  background: linear-gradient(#cfd6f7,10%, #7F859F);
+ 
+  background: linear-gradient(#cfd6f7,10%, #848AA4);
+ /* background: linear-gradient(#fafafa,10%, #acb5e1);*/
 }
 #mainContent {
 	border: 2px solid #A8802B;

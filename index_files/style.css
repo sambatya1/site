@@ -1,0 +1,61 @@
+
+
+.div1 {
+  background: red;
+}
+
+.div2 {
+  background: yellow;
+}
+
+.div3 {
+  background: green;
+}
+
+
+.photoContent{
+	margin-left: 25%;
+	text-align: center;
+	background-color: #2a4ada;
+}
+
+.photos{
+	float: left;
+	background-color: #A8802B;
+	display: block;
+  width: 500px;
+  border: #acb5e1 1px solid;
+}
+
+table {
+	border-collapse: collapse;
+	
+	letter-spacing: 1px;	
+  }
+
+  td, th {
+	border: 1px solid rgb(190,190,190);	
+  }
+
+  th {	
+	background: linear-gradient(#fafafa,10%, #acb5e1)
+  }
+
+  td {
+	text-align: center;	
+
+  font-size: 18px;
+  }
+
+  .left  {
+    text-align: left;	
+    }
+  
+  tr:nth-child(even) td {
+	background-color: #ffffff;
+  }
+  
+  tr:nth-child(odd) td {
+	background-color: rgb(255, 255, 255);
+  }
+  
