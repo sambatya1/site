@@ -2,25 +2,57 @@
 	margin:0px;
 	padding:0px;
 	font-family:"Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Lato", "Liberation Sans", "Noto Sans", "Helvetica Neue", "Helvetica", sans-serif;	
-
     color:#1b1e23;
-	font-size: 1em;
-	overflow:auto;	
+	font-size: 1em;	
+
 }
 
 
+#content
+{
+	color:#DFE0DA;
+	position: relative;
+	margin:0 auto;
+	max-width:800px;
+	text-align: center;	
+	
+}
+
+.sam{
+	/*background-color: linear-gradient (#6D6E68 0, #3f403e 50%, #a5a6a1 50%)*/
+	/*background: linear-gradient(to top #a9b1d3 10%, #7F859F 80%,#a9b1d3);*/
+	background: linear-gradient(#cfd6f7,10%, #7F859F);
+}
+.list{
+	text-align: left;
+	padding: 15 50;
+}
+
+#fio
+{
+	margin: 0 auto;
+	font-family: Impact, fantasy;	
+	font-size:30px;
+	width:300px;
+	display:block;
+	text-align:center;	
+	background: linear-gradient(to right, #ff029e, 
+                    #e3cb16,#09f12c  ); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 					
+}
+
 
 .photoContent{
-	margin-left: 6%;
-	text-align: center;	
+	margin: 0;
+	padding-left: 13%;		
 }
 
 .photos{
 	float: left;
 	display: block;
 	text-align: center;
-	padding-left: 10%;
-	
+	margin: 25px;		
 	}
 
 .left{
@@ -29,8 +61,7 @@
 
 table {
 	border-collapse: collapse;
-	width:400px;
-		
+	width:100%;		
 	margin-left: auto;
 	margin-right: auto;	
   }
@@ -60,12 +91,9 @@ table {
   }
   
   tr:nth-child(odd) td {
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(231, 242, 255);
   }
   
-  caption {
-	padding: 10px;
-  }
 
 li{
 	text-align: left;
@@ -73,7 +101,7 @@ li{
 }
 
 #footer{
-margin:30px auto 30px;
+padding:15 25;
 }
 
  .round {
@@ -83,160 +111,8 @@ margin:30px auto 30px;
 	object-fit: cover;
    }   
 
-.sam{
-		/*background-color: linear-gradient (#6D6E68 0, #3f403e 50%, #a5a6a1 50%)*/
-		/*background: linear-gradient(to top #a9b1d3 10%, #7F859F 80%,#a9b1d3);*/
-		background: linear-gradient(#cfd6f7,10%, #7F859F);
-}
-
-.ul_1 {	
-	list-style-position:inside;
-	list-style-image: linear-gradient(#FF7A2F 0, #FF7A2F 50%, #FFB214 50%);
-	padding: 20 50px;	
-}
-.list {	
-	list-style-position:inside;
-	/*list-style-image: url('check.png');	*/
-	padding: 20 70px;
-	text-align: left;
-}
-
-
-
-#data
-{
-	/*font-family: 'YS Text',Helvetica,Arial,sans-serif;*/
-	font-family: Trebuchet MS, sans-serif;
-	
-}
-#data{
-	/*position:absolute; 
-	top:600px;*/
-	
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1b1e23+0,5b6275+100 */
-background-color: white; /* Old browsers */
-
-}
-
-#up
-{
-	position: relative;	
-	/*height:500px;	*/
-	width:100%;
-	/*padding-left:50px;*/
-	background-color:white;/*#6D6E68;*/
-	z-index:2;
-	/*border:solid 1px blue;*/
-
-/*
-background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); 
-background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); 
-background: linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); */
-}
-
-#up img{
-	margin-top:20px;
-margin-right:20px;	
-}
-#fio
-{
-	margin: 0 auto;
-	font-family: Impact, fantasy;	
-	font-size:30px;
-	width:200px;
-	display:block;
-	text-align:center;
-	text-shadow: rgb(218, 229, 252) 10px 45 30px;
-	/*color: #7F859F;*/
-	background: linear-gradient(to right, #ff029e, 
-                    #e3cb16,#09f12c  ); 
-            -webkit-text-fill-color: transparent; 
-            -webkit-background-clip: text; 
-
-			
-			
-}
-#logoped
-{
-	margin:5px auto 20px auto;
-	font-size:20px;
-	display:block;	
-	/*border: 1px solid black;*/
-}
-#blue{
-	position:relative;
-	height:25px;
-	width:100%;
-	background-color:#26282E;
-	margin-bottom:20px;	
-}
-
-.col2{
-	display:block;
-position: relative;
-border-top: 1px solid #2E3137;
-/*border-bottom:1px solid #33363D;*/
-width:350px;
-height:50px;
-background-color:white;/*#26282E;*/
-text-align:justify;
-margin:0 auto;
-font-size:100%;
-}
-
-
-#data .gray
-{
-	margin:10px 0px;
-	padding:5px 0px;
-	color:white;
-
-  text-align:center;
-  width:100%;
-  font-size: 20px;
-
-}
-.gray{
-	position:relative;
-	height:25px;
-	width:400px;
-	background-color:/*#23262D;*/#848AA4;
-	margin:0 auto;
-}
-
-
-
-
-
-
-#content
-{
-	color:#DFE0DA;
-	position: relative;
-	margin:0 auto;
-	max-width:800px;
-	text-align: center;
-	z-index:1;
-}
-
-
-
-
-
-
-
- .header_img
-{	
-	height: 25px;
-	width:25px;	
-}
-
-h2{
-	text-align:center;
-}
 h3
-{
+{	
 	margin:10px 0px;
 	padding:5px 0px;
 	color:#ffffff;
@@ -247,56 +123,4 @@ h3
  
   background: linear-gradient(#cfd6f7,10%, #848AA4);
  /* background: linear-gradient(#fafafa,10%, #acb5e1);*/
-}
-#mainContent {
-	border: 2px solid #A8802B;
-	padding: 10px;
-	margin-top: 1em;
-	margin-right: 12em;
-	margin-bottom: 0;
-	margin-left: 14em;
-	background-size:90%;
-	background-image: url(../images/462557280.jpg);
-	position:relative;
-	/*overflow: hidden;*/
-	text-align: justify;
-}
-
-
-.shadow { 
- /* box-shadow: 1px 1px 22px -4px #444e51;*/
-    box-shadow: 1px 1px 27px -4px #444e51;
-   
-}
-.orange {
-	/*color: #FF3366;*/
-	text-align: center;
- font-size:12px;
-}
-.center
-{
-	display:block;
-	text-align:center;
-	/*border: 1px solid black;*/
-	width: 500px;
-	height:650px;
-	overflow: hidden;
-	margin:0 auto;
-}
-
-.formed {
-
-	border-top-width: thin;
-	border-right-width: medium;
-	border-bottom-width: thin;
-	border-left-width: medium;
-	border-top-style: solid;
-	border-right-style: none;
-	border-bottom-style: solid;
-	border-left-style: none;
-	border-top-color: #999;
-	border-right-color: #333;
-	border-bottom-color: #333;
-	border-left-color: #333;
-	text-align: center;
 }
