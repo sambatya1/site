@@ -10,8 +10,7 @@
 
 .photoContent{
 	margin-left: 6%;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .photos{
@@ -28,8 +27,8 @@
 
 table {
 	border-collapse: collapse;
-	width:50%;
-	letter-spacing: 1px;	
+	width:400px;
+		
 	margin-left: auto;
 	margin-right: auto;	
   }
